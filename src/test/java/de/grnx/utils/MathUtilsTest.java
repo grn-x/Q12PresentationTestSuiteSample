@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.function.Function;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
 public class MathUtilsTest {
 
@@ -53,6 +54,25 @@ public class MathUtilsTest {
     public void testNullInput() {
         assertEquals(0, methodUnderTest.apply(null));
     }
+
+    /*@Test
+    public void testString_succeed(){
+        String a = "abc";
+        String b = "abc";
+        //never knew that these are the same reference
+        //probably because of javas string immutability, string interning and constant pool
+        assertEquals(a, b, "Strings should be equal");
+        assertSame(a, b, "Strings should be the same reference");
+    }
+
+    @Test
+    public void testString_fail() {
+        String a = new String("abc");
+        String b = new String("abc");
+        assertEquals(a, b, "Strings should be equal");
+        assertSame(a, b, "Strings should be the same reference");
+    }*/
+
 }
 
 /*

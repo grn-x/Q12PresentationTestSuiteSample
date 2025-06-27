@@ -1,6 +1,6 @@
-# MathUtils Test Suite Demonstration
+# Sample Test Suite Demonstration
 
-This repository created in an effort to demonstrate my CS classmates the importance of test suites in software development by simulating a possible behavior of methods before and after refactoring. That is inducing an artificial bug into the post refractor method, and watching the JTestSuite discover it.
+This repository was created in an effort to demonstrate my CS classmates the importance of test suites in software development by simulating a possible behavior of methods before and after refactoring. That is inducing an artificial bug into the post refractor method, and watching the JTestSuite discover it.
 
 ## Project Overview
 
